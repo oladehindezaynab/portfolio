@@ -1,16 +1,21 @@
-# React + Vite
+# Zainab Oladehinde - Professional Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A premium, glassmorphic portfolio for Zainab Oladehinde, showcasing her expertise in **Educational Technology** and her contributions as a journalist for **Ogun Today**.
 
-Currently, two official plugins are available:
+## 🌐 Live Link
+**[https://oladehinde-zaynab.web.app/](https://oladehinde-zaynab.web.app/)**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
+- **Modern Aesthetic**: Deep navy and gold glassmorphic design system.
+- **Dynamic Articles**: Real-time article fetching from Ogun Today via a custom Firebase Cloud Function.
+- **Optimized Typography**: Automatic text normalization and whitespace cleanup for a professional reading experience.
+- **Fast & Responsive**: Built with Vite, React, and Tailwind CSS.
+- **Smooth Animations**: Integrated Framer Motion for premium interactions.
 
-## React Compiler
+## 🛠️ Tech Stack
+- **Frontend**: React, Vite, Tailwind CSS, Framer Motion, Lucide React.
+- **Backend/Deployment**: Firebase Hosting, Firebase Cloud Functions.
+- **Data Source**: [Ogun Today (Author: Zainab)](https://oguntoday.com.ng/author/zainab/)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📄 License
+Custom Portfolio Deployment for Zainab Oladehinde.
