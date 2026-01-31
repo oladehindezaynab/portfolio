@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@theme {
+  --color-portfolio-navy: hsl(210 31% 25%);
+  --color-portfolio-ivory: hsl(60 100% 97%);
+  --color-portfolio-gold: hsl(46 65% 52%);
+  --font-sans: "Inter", sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-portfolio-navy text-portfolio-ivory font-sans antialiased;
+    margin: 0;
+    min-height: 100vh;
+  }
+}
+
+@layer components {
+  .glass {
+    @apply bg-white/10 backdrop-blur-lg border border-white/20 shadow-xl;
+  }
+
+  .btn-gold {
+    @apply px-6 py-3 bg-portfolio-gold text-portfolio-navy font-bold rounded-full hover:scale-105 transition-transform duration-300;
+  }
+}
